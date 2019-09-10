@@ -2,5 +2,6 @@
 
 ## Test Collections Traversal
 
-![Win Collections Traversal](images/collectionsTraversal0.png)
+### Test Windows Editor
+![Win](images/collectionsTraversal0.png)
 
