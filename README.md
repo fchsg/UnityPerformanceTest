@@ -4,7 +4,7 @@
 
 ### 测试条件
 
-1. 平台环境: Unity2018.4 ，Window Android
+1. 平台环境: Unity2018.4 ，Window Unity Editor，Android，iOS
 2. 编译环境：IL2CPP
 3. List，Array，Dictionay 3个容器，通过For和Foreach分别遍历100万次，记录执行时间，同时测试了5次，记录结果；
    由于Array数据比较近似，后面增加到遍历1000万次，也是测试了5次，记录结果。
@@ -157,7 +157,7 @@ namespace Test
 
 ### 测试Log记录 [详细数据](TestLogs/)⁩   
 
-#### Test Windows Editor
+#### Test Windows Unity Editor
 ![Windows](images/0.png)
 
 #### Test Android Platform(HuaiWei Honour Note 8) 
