@@ -8,6 +8,7 @@
 2. 编译环境：IL2CPP
 3. List，Array，Dictionay 3个容器，通过For和Foreach分别遍历100万次，记录执行时间，同时测试了5次，记录结果；
    由于Array数据比较近似，后面增加到遍历1000万次，也是测试了5次，记录结果。
+4. 测试结果可能有波动，结果取平均值。 
 
 ### 测试结果 
 
@@ -25,5 +26,4 @@
 #### Test Android Platform(HuaiWei Honour Note 8) 
 ![Android](images/1.png)
 
-
-
+### 待完成 iOS平台没有测试
