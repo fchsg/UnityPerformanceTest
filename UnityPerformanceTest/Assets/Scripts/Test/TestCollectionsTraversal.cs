@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 using Utils;
 
@@ -7,17 +8,42 @@ namespace Test
 {
     public class TestCollectionsTraversal : MonoBehaviour
     {
-        private const  string TestTitle = "CollectionsTraversal";
-        
         private TimeSpan _timeSpan;
         private DateTime _lastDateTime;
-        
-        void Start()
+
+        private readonly StringBuilder _logTmp = new StringBuilder();
+
+        private void Start()
         {
-            const int count = 1000000;
-            TestList(count);
-            TestArray(count);
-            TestDictionary(count);
+             var count = 1000000;
+
+            LoggerHelper.LogNormal(DeviceInfo.Info());
+            LoggerHelper.LogNormal($"CollectionsTraversal_TraversalCount_{count}\n");
+
+            for (var i = 0; i < 5; i++)
+            {
+                _logTmp.Clear();
+                _logTmp.Append($"-----------------Test the {i + 1} times \n");
+                
+                TestList(count);
+                TestArray(count);
+                TestDictionary(count);
+                
+                LoggerHelper.LogNormal(_logTmp.ToString());
+            }
+
+            count = 10000000;
+            LoggerHelper.LogNormal($"Array_TraversalCount_{count}\n");
+            for (var i = 0; i < 5; i++)
+            {
+                _logTmp.Clear();
+                _logTmp.Append($"-----------------Test the {i + 1} times \n");
+                
+                TestArray(count);
+                
+                LoggerHelper.LogNormal(_logTmp.ToString());
+            }
+            
         }
 
         private void TestList(int count)
@@ -35,7 +61,7 @@ namespace Test
                 var v = l[i];
             }
             _timeSpan =  DateTime.Now.Subtract(_lastDateTime);
-            LoggerHelper.Log($"{TestTitle}_List For Used Time {_timeSpan.TotalMilliseconds} milliseconds");
+            _logTmp.Append($"List For Used Time {_timeSpan.TotalMilliseconds} milliseconds\n");
 
             _lastDateTime = DateTime.Now;
             foreach (var v in l)
@@ -43,7 +69,7 @@ namespace Test
                 var v2 = v;
             }
             _timeSpan =  DateTime.Now.Subtract(_lastDateTime);
-            LoggerHelper.Log($"{TestTitle}_List Foreach Used Time {_timeSpan.TotalMilliseconds} milliseconds");
+            _logTmp.Append($"List Foreach Used Time {_timeSpan.TotalMilliseconds} milliseconds\n");
         }
 
         private void TestArray(int count)
@@ -61,7 +87,7 @@ namespace Test
                 var v = array[i];
             }
             _timeSpan =  DateTime.Now.Subtract(_lastDateTime);
-            LoggerHelper.Log($"{TestTitle}_Array For Used Time {_timeSpan.TotalMilliseconds} milliseconds");
+            _logTmp.Append($"Array For Used Time {_timeSpan.TotalMilliseconds} milliseconds\n");
 
             _lastDateTime = DateTime.Now;
             foreach (var v in array)
@@ -69,7 +95,7 @@ namespace Test
                 var v2 = v;
             }
             _timeSpan =  DateTime.Now.Subtract(_lastDateTime);
-            LoggerHelper.Log($"{TestTitle}_Array Foreach Used Time {_timeSpan.TotalMilliseconds} milliseconds");
+            _logTmp.Append($"Array Foreach Used Time {_timeSpan.TotalMilliseconds} milliseconds\n");
         }
 
         private void TestDictionary(int count)
@@ -87,7 +113,7 @@ namespace Test
                 dic.TryGetValue(i, out var v);
             }
             _timeSpan =  DateTime.Now.Subtract(_lastDateTime);
-            LoggerHelper.Log($"{TestTitle}_Dic For Used Time {_timeSpan.TotalMilliseconds} milliseconds");
+            _logTmp.Append($"Dictionary For Used Time {_timeSpan.TotalMilliseconds} milliseconds\n");
             
             _lastDateTime = DateTime.Now;
             foreach (var v in dic.Values)
@@ -95,7 +121,7 @@ namespace Test
                 var v2 = v;
             }
             _timeSpan =  DateTime.Now.Subtract(_lastDateTime);
-            LoggerHelper.Log($"{TestTitle}_Dic Foreach Used Time {_timeSpan.TotalMilliseconds} milliseconds");
+            _logTmp.Append($"Dictionary Foreach Used Time {_timeSpan.TotalMilliseconds} milliseconds\n");
             
         }
         
