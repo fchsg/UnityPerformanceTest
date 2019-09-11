@@ -11,14 +11,14 @@
 
 ### 测试结果 
 
-1. Array([])效率高于List<T>, 如果固定长度数据，选择Array。
+1. Array效率高于List<T>, 如果固定长度数据，选择Array。
 2. 遍历数据时Array采用Foreach，List<T>采用For的形式。
 3. Dictionay如果遍历，采用 *foreach (var v in dictionary.Values)*，
-   同时 *dictionary.TryGetValue(i, out var v)*消耗效率较大。
+   同时 *dictionary.TryGetValue(i, out var v)*消耗较大。
 4. 容器选择很重要，前期数据结构设计好，减少cpu压力，避免cpu发热量过高导致掉帧。
 5. 尽量减少在Update中每帧都通过容器遍历数据，同时避免在Update使用dictionary.TryGetValue()方法。
    
-### 测试Log记录,[详细数据](TestLogs/)⁩   
+### 测试Log记录 [详细数据](TestLogs/)⁩   
 
 #### Test Windows Editor
 ![Windows](images/0.png)
