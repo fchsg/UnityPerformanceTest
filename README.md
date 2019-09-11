@@ -35,7 +35,7 @@ namespace Test
         private TimeSpan _timeSpan;
         private DateTime _lastDateTime;
 
-        private readonly StringBuilder _logTmp = new StringBuilder();
+        private readonly StringBuilder _logTmp = new StringBuilder(1000);
 
         private void Start()
         {

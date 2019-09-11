@@ -1,24 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using UnityEngine;
 using Utils;
 
 namespace Test
 {
-    public class TestCollectionsTraversal : MonoBehaviour
+    public class TestCollectionsTraversal : TestBase
     {
         private TimeSpan _timeSpan;
         private DateTime _lastDateTime;
 
         private readonly StringBuilder _logTmp = new StringBuilder(1000);
 
-        private void Start()
+        public override void StartTest()
         {
              var count = 1000000;
 
             LoggerHelper.LogNormal(DeviceInfo.Info());
             LoggerHelper.LogNormal($"CollectionsTraversal_TraversalCount_{count}\n");
+
+            for (var i = 0; i < 3; i++)
+            {
+                _logTmp.Append(
+                    "placeholder placeholder placeholder placeholder placeholder placeholder placeholder");
+            }
+            
 
             for (var i = 0; i < 5; i++)
             {
@@ -46,7 +52,7 @@ namespace Test
             
         }
 
-        private void TestList(int count)
+        private  void TestList(int count)
         {
             var l = new List<int>(count);
             for (var i = 0; i < count; ++i)
