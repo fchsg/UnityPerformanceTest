@@ -1,0 +1,70 @@
+UnityVersion:2018.4.3f1 
+Device:iPhone9,2 
+CPU:arm64 
+GPU:Apple A10 GPU 
+MEMORY:3000 
+
+CollectionsTraversal_TraversalCount_1000000
+
+-----------------Test the 1 times 
+List For Used Time 5.85 milliseconds
+List Foreach Used Time 4.383 milliseconds
+Array For Used Time 0.893 milliseconds
+Array Foreach Used Time 0.892 milliseconds
+Dictionary For Used Time 24.36 milliseconds
+Dictionary Foreach Used Time 7.357 milliseconds
+
+-----------------Test the 2 times 
+List For Used Time 2.556 milliseconds
+List Foreach Used Time 4.272 milliseconds
+Array For Used Time 0.912 milliseconds
+Array Foreach Used Time 0.898 milliseconds
+Dictionary For Used Time 24.009 milliseconds
+Dictionary Foreach Used Time 7.309 milliseconds
+
+-----------------Test the 3 times 
+List For Used Time 3.294 milliseconds
+List Foreach Used Time 4.213 milliseconds
+Array For Used Time 0.902 milliseconds
+Array Foreach Used Time 0.927 milliseconds
+Dictionary For Used Time 24.088 milliseconds
+Dictionary Foreach Used Time 8.185 milliseconds
+
+-----------------Test the 4 times 
+List For Used Time 2.591 milliseconds
+List Foreach Used Time 4.22 milliseconds
+Array For Used Time 0.921 milliseconds
+Array Foreach Used Time 0.905 milliseconds
+Dictionary For Used Time 25.608 milliseconds
+Dictionary Foreach Used Time 7.603 milliseconds
+
+-----------------Test the 5 times 
+List For Used Time 2.556 milliseconds
+List Foreach Used Time 4.381 milliseconds
+Array For Used Time 0.896 milliseconds
+Array Foreach Used Time 1.012 milliseconds
+Dictionary For Used Time 24.373 milliseconds
+Dictionary Foreach Used Time 7.183 milliseconds
+
+Array_TraversalCount_10000000
+
+-----------------Test the 1 times 
+Array For Used Time 9.275 milliseconds
+Array Foreach Used Time 9.01 milliseconds
+
+-----------------Test the 2 times 
+Array For Used Time 9.068 milliseconds
+Array Foreach Used Time 9.146 milliseconds
+
+-----------------Test the 3 times 
+Array For Used Time 9.143 milliseconds
+Array Foreach Used Time 8.997 milliseconds
+
+-----------------Test the 4 times 
+Array For Used Time 9.12 milliseconds
+Array Foreach Used Time 9.076 milliseconds
+
+-----------------Test the 5 times 
+Array For Used Time 9.512 milliseconds
+Array Foreach Used Time 9.153 milliseconds
+

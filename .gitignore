@@ -1,4 +1,4 @@
-﻿UnityPerformanceTest/.idea
+UnityPerformanceTest/.idea
 UnityPerformanceTest/Assets/Plugins/Editor/JetBrains
 UnityPerformanceTest/Assets/Plugins/Editor/JetBrains.meta
 UnityPerformanceTest/Library
@@ -6,3 +6,4 @@ UnityPerformanceTest/Temp
 UnityPerformanceTest/UnityPerformanceTest.sln
 UnityPerformanceTest/Assembly-CSharp.csproj
 UnityPerformanceTest/UnityPerferenceTest-0.1-v1.symbols.zip
+UnityPerformanceTest/xCode
