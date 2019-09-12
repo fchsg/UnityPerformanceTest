@@ -19,12 +19,7 @@ namespace Test
             LoggerHelper.LogNormal(DeviceInfo.Info());
             LoggerHelper.LogNormal($"CollectionsTraversal_TraversalCount_{count}\n");
 
-            for (var i = 0; i < 3; i++)
-            {
-                _logTmp.Append(
-                    "placeholder placeholder placeholder placeholder placeholder placeholder placeholder");
-            }
-            
+            CreatePreset(count);
 
             for (var i = 0; i < 5; i++)
             {
@@ -130,6 +125,35 @@ namespace Test
             _logTmp.Append($"Dictionary Foreach Used Time {_timeSpan.TotalMilliseconds} milliseconds\n");
             
         }
-        
+
+
+        private void CreatePreset(int count)
+        {
+            var l = new List<int>(count);
+            for (var i = 0; i < count; ++i)
+            {
+                l.Add(i);
+            }
+            
+            var array = new int[count];
+            for (var i = 0; i < count; ++i)
+            {
+                array[i] = i;
+            }
+            
+            var dic = new Dictionary<int, string>(count);
+            for (var i = 0; i < count; ++i)
+            {
+                dic.Add(i, "test");
+            }
+
+            for (var i = 0; i < 3; i++)
+            {
+                _logTmp.Append("placeholder placeholder placeholder placeholder placeholder placeholder placeholder");
+            }
+
+            _lastDateTime = DateTime.Now;
+        }
+
     }
 }

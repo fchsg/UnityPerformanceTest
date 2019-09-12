@@ -1,69 +1,69 @@
-9-11 21:37:27.631 11035 11055 I Unity    : UnityVersion:2018.4.6f1 
-09-11 21:37:27.631 11035 11055 I Unity   : Device:HUAWEI EDI-AL10 
-09-11 21:37:27.631 11035 11055 I Unity   : CPU:ARMv7 VFPv3 NEON 
-09-11 21:37:27.631 11035 11055 I Unity   : GPU:Mali-T880 
-09-11 21:37:27.631 11035 11055 I Unity   : MEMORY:3716 
+09-12 08:00:08.693 18466 18495 I Unity   : UnityVersion:2018.4.6f1 
+09-12 08:00:08.693 18466 18495 I Unity   : Device:HUAWEI EDI-AL10 
+09-12 08:00:08.693 18466 18495 I Unity   : CPU:ARMv7 VFPv3 NEON 
+09-12 08:00:08.693 18466 18495 I Unity   : GPU:Mali-T880 
+09-12 08:00:08.693 18466 18495 I Unity   : MEMORY:3716 
 
-09-11 21:37:27.633 11035 11055 I Unity   : CollectionsTraversal_TraversalCount_1000000
+09-12 08:00:08.696 18466 18495 I Unity   : CollectionsTraversal_TraversalCount_1000000
 
-09-11 21:37:27.859 11035 11055 I Unity   : -----------------Test the 1 times 
-09-11 21:37:27.859 11035 11055 I Unity   : List For Used Time 16.108 milliseconds
-09-11 21:37:27.859 11035 11055 I Unity   : List Foreach Used Time 15.113 milliseconds
-09-11 21:37:27.859 11035 11055 I Unity   : Array For Used Time 3.319 milliseconds
-09-11 21:37:27.859 11035 11055 I Unity   : Array Foreach Used Time 3.348 milliseconds
-09-11 21:37:27.859 11035 11055 I Unity   : Dictionary For Used Time 49.136 milliseconds
-09-11 21:37:27.859 11035 11055 I Unity   : Dictionary Foreach Used Time 16.412 milliseconds
+09-12 08:00:08.974 18466 18495 I Unity   : -----------------Test the 1 times 
+09-12 08:00:08.974 18466 18495 I Unity   : List For Used Time 5.515 milliseconds
+09-12 08:00:08.974 18466 18495 I Unity   : List Foreach Used Time 8.502 milliseconds
+09-12 08:00:08.974 18466 18495 I Unity   : Array For Used Time 1.594 milliseconds
+09-12 08:00:08.974 18466 18495 I Unity   : Array Foreach Used Time 1.592 milliseconds
+09-12 08:00:08.974 18466 18495 I Unity   : Dictionary For Used Time 56.354 milliseconds
+09-12 08:00:08.974 18466 18495 I Unity   : Dictionary Foreach Used Time 12.607 milliseconds
 
-09-11 21:37:27.993 11035 11055 I Unity   : -----------------Test the 2 times 
-09-11 21:37:27.993 11035 11055 I Unity   : List For Used Time 4.003 milliseconds
-09-11 21:37:27.993 11035 11055 I Unity   : List Foreach Used Time 7.245 milliseconds
-09-11 21:37:27.993 11035 11055 I Unity   : Array For Used Time 1.598 milliseconds
-09-11 21:37:27.993 11035 11055 I Unity   : Array Foreach Used Time 1.591 milliseconds
-09-11 21:37:27.993 11035 11055 I Unity   : Dictionary For Used Time 44.464 milliseconds
-09-11 21:37:27.993 11035 11055 I Unity   : Dictionary Foreach Used Time 12.074 milliseconds
+09-12 08:00:09.123 18466 18495 I Unity   : -----------------Test the 2 times 
+09-12 08:00:09.123 18466 18495 I Unity   : List For Used Time 4.445 milliseconds
+09-12 08:00:09.123 18466 18495 I Unity   : List Foreach Used Time 7.237 milliseconds
+09-12 08:00:09.123 18466 18495 I Unity   : Array For Used Time 1.595 milliseconds
+09-12 08:00:09.123 18466 18495 I Unity   : Array Foreach Used Time 1.592 milliseconds
+09-12 08:00:09.123 18466 18495 I Unity   : Dictionary For Used Time 58.27 milliseconds
+09-12 08:00:09.123 18466 18495 I Unity   : Dictionary Foreach Used Time 12.672 milliseconds
 
-09-11 21:37:28.143 11035 11055 I Unity   : -----------------Test the 3 times 
-09-11 21:37:28.143 11035 11055 I Unity   : List For Used Time 4.045 milliseconds
-09-11 21:37:28.143 11035 11055 I Unity   : List Foreach Used Time 7.267 milliseconds
-09-11 21:37:28.143 11035 11055 I Unity   : Array For Used Time 1.595 milliseconds
-09-11 21:37:28.143 11035 11055 I Unity   : Array Foreach Used Time 1.592 milliseconds
-09-11 21:37:28.143 11035 11055 I Unity   : Dictionary For Used Time 44.053 milliseconds
-09-11 21:37:28.143 11035 11055 I Unity   : Dictionary Foreach Used Time 19.486 milliseconds
+09-12 08:00:09.264 18466 18495 I Unity   : -----------------Test the 3 times 
+09-12 08:00:09.264 18466 18495 I Unity   : List For Used Time 4.42 milliseconds
+09-12 08:00:09.264 18466 18495 I Unity   : List Foreach Used Time 7.226 milliseconds
+09-12 08:00:09.264 18466 18495 I Unity   : Array For Used Time 1.597 milliseconds
+09-12 08:00:09.264 18466 18495 I Unity   : Array Foreach Used Time 1.592 milliseconds
+09-12 08:00:09.264 18466 18495 I Unity   : Dictionary For Used Time 50.044 milliseconds
+09-12 08:00:09.264 18466 18495 I Unity   : Dictionary Foreach Used Time 12.638 milliseconds
 
-09-11 21:37:28.276 11035 11055 I Unity   : -----------------Test the 4 times 
-09-11 21:37:28.276 11035 11055 I Unity   : List For Used Time 4.026 milliseconds
-09-11 21:37:28.276 11035 11055 I Unity   : List Foreach Used Time 7.265 milliseconds
-09-11 21:37:28.276 11035 11055 I Unity   : Array For Used Time 1.593 milliseconds
-09-11 21:37:28.276 11035 11055 I Unity   : Array Foreach Used Time 1.592 milliseconds
-09-11 21:37:28.276 11035 11055 I Unity   : Dictionary For Used Time 44.033 milliseconds
-09-11 21:37:28.276 11035 11055 I Unity   : Dictionary Foreach Used Time 11.949 milliseconds
+09-12 08:00:09.405 18466 18495 I Unity   : -----------------Test the 4 times 
+09-12 08:00:09.405 18466 18495 I Unity   : List For Used Time 4.427 milliseconds
+09-12 08:00:09.405 18466 18495 I Unity   : List Foreach Used Time 7.254 milliseconds
+09-12 08:00:09.405 18466 18495 I Unity   : Array For Used Time 1.593 milliseconds
+09-12 08:00:09.405 18466 18495 I Unity   : Array Foreach Used Time 1.592 milliseconds
+09-12 08:00:09.405 18466 18495 I Unity   : Dictionary For Used Time 49.38 milliseconds
+09-12 08:00:09.405 18466 18495 I Unity   : Dictionary Foreach Used Time 12.715 milliseconds
 
-09-11 21:37:28.415 11035 11055 I Unity   : -----------------Test the 5 times 
-09-11 21:37:28.415 11035 11055 I Unity   : List For Used Time 4.001 milliseconds
-09-11 21:37:28.415 11035 11055 I Unity   : List Foreach Used Time 7.241 milliseconds
-09-11 21:37:28.415 11035 11055 I Unity   : Array For Used Time 1.594 milliseconds
-09-11 21:37:28.415 11035 11055 I Unity   : Array Foreach Used Time 1.592 milliseconds
-09-11 21:37:28.415 11035 11055 I Unity   : Dictionary For Used Time 44.265 milliseconds
-09-11 21:37:28.415 11035 11055 I Unity   : Dictionary Foreach Used Time 18.278 milliseconds
+09-12 08:00:09.548 18466 18495 I Unity   : -----------------Test the 5 times 
+09-12 08:00:09.548 18466 18495 I Unity   : List For Used Time 4.416 milliseconds
+09-12 08:00:09.548 18466 18495 I Unity   : List Foreach Used Time 7.258 milliseconds
+09-12 08:00:09.548 18466 18495 I Unity   : Array For Used Time 1.592 milliseconds
+09-12 08:00:09.548 18466 18495 I Unity   : Array Foreach Used Time 1.591 milliseconds
+09-12 08:00:09.548 18466 18495 I Unity   : Dictionary For Used Time 52.116 milliseconds
+09-12 08:00:09.548 18466 18495 I Unity   : Dictionary Foreach Used Time 12.635 milliseconds
 
-09-11 21:37:28.415 11035 11055 I Unity   : Array_TraversalCount_10000000
+09-12 08:00:09.549 18466 18495 I Unity   : Array_TraversalCount_10000000
 
-09-11 21:37:28.478 11035 11055 I Unity   : -----------------Test the 1 times 
-09-11 21:37:28.478 11035 11055 I Unity   : Array For Used Time 15.921 milliseconds
-09-11 21:37:28.478 11035 11055 I Unity   : Array Foreach Used Time 15.918 milliseconds
+09-12 08:00:09.612 18466 18495 I Unity   : -----------------Test the 1 times 
+09-12 08:00:09.612 18466 18495 I Unity   : Array For Used Time 15.946 milliseconds
+09-12 08:00:09.612 18466 18495 I Unity   : Array Foreach Used Time 15.938 milliseconds
 
-09-11 21:37:28.540 11035 11055 I Unity   : -----------------Test the 2 times 
-09-11 21:37:28.540 11035 11055 I Unity   : Array For Used Time 15.921 milliseconds
-09-11 21:37:28.540 11035 11055 I Unity   : Array Foreach Used Time 15.911 milliseconds
+09-12 08:00:09.675 18466 18495 I Unity   : -----------------Test the 2 times 
+09-12 08:00:09.675 18466 18495 I Unity   : Array For Used Time 15.928 milliseconds
+09-12 08:00:09.675 18466 18495 I Unity   : Array Foreach Used Time 15.932 milliseconds
 
-09-11 21:37:28.602 11035 11055 I Unity   : -----------------Test the 3 times 
-09-11 21:37:28.602 11035 11055 I Unity   : Array For Used Time 15.924 milliseconds
-09-11 21:37:28.602 11035 11055 I Unity   : Array Foreach Used Time 15.911 milliseconds
+09-12 08:00:09.738 18466 18495 I Unity   : -----------------Test the 3 times 
+09-12 08:00:09.738 18466 18495 I Unity   : Array For Used Time 15.924 milliseconds
+09-12 08:00:09.738 18466 18495 I Unity   : Array Foreach Used Time 15.923 milliseconds
 
-09-11 21:37:28.664 11035 11055 I Unity   : -----------------Test the 4 times 
-09-11 21:37:28.664 11035 11055 I Unity   : Array For Used Time 15.919 milliseconds
-09-11 21:37:28.664 11035 11055 I Unity   : Array Foreach Used Time 15.916 milliseconds
+09-12 08:00:09.802 18466 18495 I Unity   : -----------------Test the 4 times 
+09-12 08:00:09.802 18466 18495 I Unity   : Array For Used Time 15.946 milliseconds
+09-12 08:00:09.802 18466 18495 I Unity   : Array Foreach Used Time 15.943 milliseconds
 
-09-11 21:37:28.726 11035 11055 I Unity   : -----------------Test the 5 times 
-09-11 21:37:28.726 11035 11055 I Unity   : Array For Used Time 15.916 milliseconds
-09-11 21:37:28.726 11035 11055 I Unity   : Array Foreach Used Time 15.915 milliseconds
+09-12 08:00:09.866 18466 18495 I Unity   : -----------------Test the 5 times 
+09-12 08:00:09.866 18466 18495 I Unity   : Array For Used Time 15.959 milliseconds
+09-12 08:00:09.866 18466 18495 I Unity   : Array Foreach Used Time 15.931 milliseconds
